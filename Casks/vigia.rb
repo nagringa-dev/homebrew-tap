@@ -8,8 +8,7 @@ cask "vigia" do
   desc "Records and transcribes interviews, meetings and mentoring sessions"
   homepage "https://nagringa.dev/app/downloads"
 
-  auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Vigia.app"
 
