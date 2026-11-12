@@ -2,8 +2,7 @@ cask "vigia" do
   version :latest
   sha256 :no_check
 
-  url "https://pastel-curlew-275.convex.site/update/darwin/Vigia-mac.zip",
-      verified: "pastel-curlew-275.convex.site/update/darwin/"
+  url "https://pastel-curlew-275.convex.site/update/darwin/Vigia-mac.zip"
   name "Vigia"
   desc "Records and transcribes interviews, meetings and mentoring sessions"
   homepage "https://nagringa.dev/app/downloads"
