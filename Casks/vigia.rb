@@ -7,6 +7,7 @@ cask "vigia" do
   desc "Records and transcribes interviews, meetings and mentoring sessions"
   homepage "https://nagringa.dev/app/downloads"
 
+  depends_on arch: :arm64
   depends_on macos: :ventura
 
   app "Vigia.app"
